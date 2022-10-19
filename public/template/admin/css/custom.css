@@ -1,0 +1,29 @@
+.custom-show-more{
+    display: none;
+  position: fixed;
+z-index: 9998!important;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background:white;
+width : 80% ;
+height : 700px;
+overflow: scroll;
+}
+.dash-board{
+    display: none;
+  position: fixed;
+z-index: 9999!important;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background:white;
+overflow: scroll;
+}
+.close-custom {
+  font-size: 35px;
+  margin-left : 15px;
+}
+.checked-icon {
+    color: orange !important;
+}
